@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "opamps")(type "KiCad")(uri "${KIPRJMOD}/Componets/opamps.kicad_sym")(options "")(descr ""))
-)
