@@ -599,6 +599,10 @@
       {
         "netclass": "Default",
         "pattern": "/RG1-"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
       }
     ]
   },

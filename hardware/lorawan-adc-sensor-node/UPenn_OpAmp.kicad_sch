@@ -5295,6 +5295,16 @@
 		)
 		(uuid "0834169b-e35f-40eb-8cc8-f966c19a2786")
 	)
+	(label "GND"
+		(at 210.82 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fd699c3-6158-4ccf-b615-0b848fd74877")
+	)
 	(label "RG0+"
 		(at 356.235 52.07 0)
 		(effects
@@ -5324,6 +5334,16 @@
 			(justify left bottom)
 		)
 		(uuid "351fae67-d6b0-47c5-91e8-7c5345e2c348")
+	)
+	(label "GND"
+		(at 210.82 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "371ab208-c59b-406e-8e5a-407ad62a9880")
 	)
 	(label "P2-"
 		(at 67.31 180.34 0)
@@ -5465,6 +5485,16 @@
 		)
 		(uuid "63e85608-94ad-47f7-ad8f-df6ab4ee7d4a")
 	)
+	(label "5V_SW"
+		(at 198.12 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "63f6268a-ce1c-433d-a17b-58a60c7be941")
+	)
 	(label "P3+"
 		(at 167.64 118.11 180)
 		(effects
@@ -5494,6 +5524,16 @@
 			(justify left bottom)
 		)
 		(uuid "789cf051-8a3f-403d-9927-b7174decc098")
+	)
+	(label "5V_SW"
+		(at 198.12 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82f9cc7f-8c54-4e03-867e-058a49e2f07c")
 	)
 	(label "RG2-"
 		(at 361.95 211.455 0)
@@ -6394,7 +6434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
 			(at 203.2 115.57 0)
 			(hide yes)
 			(show_name no)
