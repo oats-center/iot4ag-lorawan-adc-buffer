@@ -5275,7 +5275,7 @@
 		)
 		(uuid "ff722d1b-668c-4b2b-891a-bca01e1d927b")
 	)
-	(label "P1-"
+	(label "P1+"
 		(at 67.31 157.48 0)
 		(effects
 			(font
@@ -5325,7 +5325,7 @@
 		)
 		(uuid "2acb97d8-1ae5-4c27-b76e-6f2a1353b941")
 	)
-	(label "P1+"
+	(label "P1-"
 		(at 67.31 154.94 0)
 		(effects
 			(font
@@ -5345,7 +5345,7 @@
 		)
 		(uuid "371ab208-c59b-406e-8e5a-407ad62a9880")
 	)
-	(label "P2-"
+	(label "P2+"
 		(at 67.31 180.34 0)
 		(effects
 			(font
@@ -5405,7 +5405,7 @@
 		)
 		(uuid "46fbb9e6-3b06-4930-b264-9d540b0ac692")
 	)
-	(label "P2+"
+	(label "P2-"
 		(at 67.31 177.8 0)
 		(effects
 			(font
@@ -5565,7 +5565,7 @@
 		)
 		(uuid "a02f2752-3594-489a-a859-cd66e809af5f")
 	)
-	(label "P3+"
+	(label "P3-"
 		(at 67.31 199.39 0)
 		(effects
 			(font
@@ -5635,7 +5635,7 @@
 		)
 		(uuid "b7c473cb-061d-4174-8ee6-92bde10878bf")
 	)
-	(label "P3-"
+	(label "P3+"
 		(at 67.31 201.93 0)
 		(effects
 			(font
@@ -11299,7 +11299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
 			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
