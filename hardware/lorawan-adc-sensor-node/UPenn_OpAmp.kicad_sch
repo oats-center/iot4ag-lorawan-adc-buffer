@@ -833,6 +833,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -2987,7 +3110,7 @@
 	)
 	(text "Power Supply Filter"
 		(exclude_from_sim no)
-		(at 157.48 360.68 0)
+		(at 128.905 367.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3218,7 +3341,7 @@
 		(uuid "64c30fb1-ba9d-41ae-aa03-d350a4af2660")
 	)
 	(junction
-		(at 165.1 331.47)
+		(at 136.525 337.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6de0030a-4dbf-4a0f-b4a4-6058fae7ea85")
@@ -3527,6 +3650,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 177.8) (xy 104.14 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1496d5a5-0d1b-4d3e-b6e8-cb36598e2c57")
+	)
+	(wire
+		(pts
 			(xy 426.085 128.27) (xy 428.625 128.27)
 		)
 		(stroke
@@ -3627,7 +3760,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 344.17) (xy 158.75 349.25)
+			(xy 130.175 350.52) (xy 130.175 355.6)
 		)
 		(stroke
 			(width 0)
@@ -3747,6 +3880,36 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 175.26) (xy 144.78 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a5c5027-e7ed-4d0f-9b30-8123011ba0b6")
+	)
+	(wire
+		(pts
+			(xy 146.05 154.94) (xy 147.32 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3035f944-d741-4700-93b1-bd6046e8c2c7")
+	)
+	(wire
+		(pts
+			(xy 118.11 152.4) (xy 118.11 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3201a955-a229-4d23-970f-557c071fd252")
+	)
+	(wire
+		(pts
 			(xy 428.625 57.15) (xy 431.165 57.15)
 		)
 		(stroke
@@ -3774,6 +3937,16 @@
 			(type default)
 		)
 		(uuid "34d0f8b6-d701-445c-b641-f12cd9dcb2dc")
+	)
+	(wire
+		(pts
+			(xy 119.38 199.39) (xy 119.38 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d270e7-81be-46b3-b598-97d01f560796")
 	)
 	(wire
 		(pts
@@ -3887,7 +4060,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 331.47) (xy 165.1 331.47)
+			(xy 130.175 337.82) (xy 136.525 337.82)
 		)
 		(stroke
 			(width 0)
@@ -3967,6 +4140,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 175.26) (xy 118.11 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "518f315b-87f4-446f-a7ff-239dd83200f6")
+	)
+	(wire
+		(pts
 			(xy 102.235 44.45) (xy 102.235 41.91)
 		)
 		(stroke
@@ -3977,7 +4160,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 331.47) (xy 172.085 331.47)
+			(xy 136.525 337.82) (xy 143.51 337.82)
 		)
 		(stroke
 			(width 0)
@@ -3994,6 +4177,16 @@
 			(type default)
 		)
 		(uuid "53ce8e41-e9ce-4cd8-9e49-296326570215")
+	)
+	(wire
+		(pts
+			(xy 146.05 152.4) (xy 146.05 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "543b7778-7ad0-4553-b964-5b287e108f02")
 	)
 	(wire
 		(pts
@@ -4057,7 +4250,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.085 331.47) (xy 172.085 336.55)
+			(xy 143.51 337.82) (xy 143.51 342.9)
 		)
 		(stroke
 			(width 0)
@@ -4367,6 +4560,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 199.39) (xy 147.32 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "815301f7-fb78-4b90-b607-ae85b98a8d0a")
+	)
+	(wire
+		(pts
 			(xy 63.5 245.11) (xy 63.5 254)
 		)
 		(stroke
@@ -4497,7 +4700,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 331.47) (xy 165.1 336.55)
+			(xy 136.525 337.82) (xy 136.525 342.9)
 		)
 		(stroke
 			(width 0)
@@ -4667,6 +4870,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 177.8) (xy 147.32 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac438a34-31ac-419e-9edc-8d5576ea20c3")
+	)
+	(wire
+		(pts
 			(xy 407.035 130.81) (xy 401.955 130.81)
 		)
 		(stroke
@@ -4704,6 +4917,16 @@
 			(type default)
 		)
 		(uuid "b0dd2b9b-9328-4731-9d1c-5d9a001c6d1e")
+	)
+	(wire
+		(pts
+			(xy 104.14 154.94) (xy 104.14 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30155d4-51de-4570-a62c-82c1b8fc483e")
 	)
 	(wire
 		(pts
@@ -4787,7 +5010,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.085 344.17) (xy 172.085 349.25)
+			(xy 143.51 350.52) (xy 143.51 355.6)
 		)
 		(stroke
 			(width 0)
@@ -4807,7 +5030,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 344.17) (xy 165.1 349.25)
+			(xy 136.525 350.52) (xy 136.525 355.6)
 		)
 		(stroke
 			(width 0)
@@ -5097,6 +5320,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 199.39) (xy 105.41 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3680795-f50f-4e33-b8d8-a86ffffae34c")
+	)
+	(wire
+		(pts
 			(xy 421.005 112.395) (xy 426.085 112.395)
 		)
 		(stroke
@@ -5197,7 +5430,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 336.55) (xy 158.75 331.47)
+			(xy 130.175 342.9) (xy 130.175 337.82)
 		)
 		(stroke
 			(width 0)
@@ -5244,6 +5477,16 @@
 			(type default)
 		)
 		(uuid "f80ff4e8-3846-4d78-b45b-811c971ecc90")
+	)
+	(wire
+		(pts
+			(xy 147.32 201.93) (xy 149.86 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb01b56e-12c7-4805-aaf6-84689c377d08")
 	)
 	(wire
 		(pts
@@ -5294,6 +5537,16 @@
 			(justify left bottom)
 		)
 		(uuid "0834169b-e35f-40eb-8cc8-f966c19a2786")
+	)
+	(label "P3+"
+		(at 119.38 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d439c4b-7d46-4f37-adec-235264536f0d")
 	)
 	(label "GND"
 		(at 210.82 115.57 0)
@@ -5436,7 +5689,7 @@
 		(uuid "50ef356c-de07-49e4-b0e0-a38724a31293")
 	)
 	(label "5V_SW"
-		(at 165.1 331.47 0)
+		(at 136.525 337.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5476,6 +5729,16 @@
 		(uuid "5defca00-78e4-4447-9fbe-b676fa8dabde")
 	)
 	(label "P1-"
+		(at 104.14 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6194d20b-4f44-4c22-9aee-68bfe418bbc8")
+	)
+	(label "P1-"
 		(at 67.31 39.37 180)
 		(effects
 			(font
@@ -5494,6 +5757,16 @@
 			(justify right bottom)
 		)
 		(uuid "63f6268a-ce1c-433d-a17b-58a60c7be941")
+	)
+	(label "P2-"
+		(at 104.14 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63fbedd9-8821-4343-a299-891f62832c83")
 	)
 	(label "P3+"
 		(at 167.64 118.11 180)
@@ -5635,6 +5908,16 @@
 		)
 		(uuid "b7c473cb-061d-4174-8ee6-92bde10878bf")
 	)
+	(label "P3-"
+		(at 105.41 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb32e3ce-4525-45cd-94d9-166a4c67490d")
+	)
 	(label "P3+"
 		(at 67.31 201.93 0)
 		(effects
@@ -5684,6 +5967,16 @@
 			(justify right bottom)
 		)
 		(uuid "d41ea641-4789-40ec-a093-c0228c32490f")
+	)
+	(label "P2+"
+		(at 118.11 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d72997ab-a222-4096-8456-e56b060c92ab")
 	)
 	(label "RG1-"
 		(at 353.695 128.27 0)
@@ -5774,6 +6067,16 @@
 			(justify left bottom)
 		)
 		(uuid "f73d2c93-1d9f-4e4a-aae2-f3752b968331")
+	)
+	(label "P1+"
+		(at 118.11 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f754be7e-cdf5-485f-99b5-e5e295209f09")
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -6248,7 +6551,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.085 349.25 0)
+		(at 143.51 355.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6259,7 +6562,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e1d9e0a-f422-478c-a080-f76cc9cbd6d0")
 		(property "Reference" "#PWR021"
-			(at 172.085 355.6 0)
+			(at 143.51 361.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6270,7 +6573,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.085 353.06 0)
+			(at 143.51 359.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6280,7 +6583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.085 349.25 0)
+			(at 143.51 355.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6291,7 +6594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.085 349.25 0)
+			(at 143.51 355.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6302,7 +6605,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.085 349.25 0)
+			(at 143.51 355.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6876,6 +7179,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 149.86 201.93 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "182e84af-dd3a-4d6d-b93a-778d07bf6852")
+		(property "Reference" "#PWR060"
+			(at 146.05 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V_SW"
+			(at 153.67 201.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1dc23bad-39dc-43da-8b5e-1a68f28132f4")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 209.55 0)
 		(unit 1)
@@ -7421,6 +7803,164 @@
 			(project "UPenn_OpAmp"
 				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 132.08 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2932dd54-57ef-410f-b7de-3cfd60c2822f")
+		(property "Reference" "TP3"
+			(at 134.62 147.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 134.62 150.3679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 137.16 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 132.08 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "400c713d-c71a-47ea-a31d-875aab32e596")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 119.38 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f3accb2-b33d-4640-8cf3-d734786ad6ab")
+		(property "Reference" "TP10"
+			(at 121.92 194.8179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 121.92 197.3579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 124.46 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 119.38 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "208b99e2-ea92-4d0f-ae45-4173d18370c5")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -8055,6 +8595,164 @@
 			(project "UPenn_OpAmp"
 				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 104.14 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3da30e1b-387f-4511-bda8-8c10fabba962")
+		(property "Reference" "TP5"
+			(at 106.68 170.6879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 106.68 173.2279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 109.22 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42a02174-9db5-4730-87a8-95630caa7af4")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4067ed32-9361-47dc-aef5-2d6285c0be9e")
+		(property "Reference" "TP9"
+			(at 107.95 194.8179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.95 197.3579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 110.49 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27ab7cda-8cca-4e83-8511-58471e546126")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -8712,6 +9410,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 132.08 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "505eaf14-e716-4272-8b89-7d0c87f41217")
+		(property "Reference" "#PWR062"
+			(at 132.08 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "561474c8-598b-4226-9947-4a1d229daceb")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 390.525 125.73 90)
 		(unit 1)
@@ -8942,6 +9717,85 @@
 			(project "UPenn_OpAmp"
 				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5603bc40-67f1-4d5e-8d42-dbf62d57e7af")
+		(property "Reference" "TP8"
+			(at 147.32 170.6879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 147.32 173.2279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 149.86 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31fc42d6-9852-4c09-b912-0c6c027269b4")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -9259,6 +10113,85 @@
 			(project "UPenn_OpAmp"
 				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 133.35 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c6f17c5-ca08-45c0-b1fc-8672bf736622")
+		(property "Reference" "TP11"
+			(at 135.89 194.8179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.89 197.3579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 138.43 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 133.35 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6384e680-7464-451f-a98d-e82d621be994")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -9616,6 +10549,85 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 147.32 177.8 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b25c08c-977d-422a-8fea-75b053b2a1f0")
+		(property "Reference" "#PWR061"
+			(at 143.51 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V_SW"
+			(at 151.13 177.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80d1e7a0-9bcc-4301-9d83-db710411a826")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 416.56 109.22 0)
 		(unit 1)
 		(body_style 1)
@@ -9923,6 +10935,85 @@
 			(project "UPenn_OpAmp"
 				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 147.32 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75e5da05-eee8-4e04-b117-1a376b16140c")
+		(property "Reference" "TP12"
+			(at 149.86 194.8179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 149.86 197.3579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 152.4 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 147.32 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f94182a7-b6cd-46ea-8272-3eb0c51ee9a4")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -11360,6 +12451,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 133.35 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9621f11b-5e55-47c4-aff9-bdb6560a744b")
+		(property "Reference" "#PWR064"
+			(at 133.35 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97d15c98-4d00-4c07-8133-a37a03230dd1")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 442.595 134.62 0)
 		(unit 1)
@@ -11436,6 +12604,85 @@
 			(project "UPenn_OpAmp"
 				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 104.14 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e315816-308a-425c-85cb-97c6c15de2ef")
+		(property "Reference" "TP1"
+			(at 106.68 147.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 106.68 150.3679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 109.22 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6efb6de-7995-4585-ba49-efd736557b10")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -12290,6 +13537,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8300e3a-2016-4e55-ac02-23e460e0b5d0")
+		(property "Reference" "TP4"
+			(at 148.59 147.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 148.59 150.3679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 151.13 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7786c2bd-88cd-44a3-a5ff-5e6ea795b406")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "opamps:AD8615")
 		(at 414.655 57.15 0)
 		(unit 1)
@@ -12380,7 +13706,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 172.085 340.36 0)
+		(at 143.51 346.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12390,7 +13716,7 @@
 		(dnp no)
 		(uuid "ab2a1247-fb1f-46a7-925a-e0e1820b3add")
 		(property "Reference" "C10"
-			(at 175.895 346.075 0)
+			(at 147.32 352.425 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12401,7 +13727,7 @@
 			)
 		)
 		(property "Value" "330u"
-			(at 172.72 342.9 0)
+			(at 144.145 349.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12412,7 +13738,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
-			(at 173.0502 344.17 0)
+			(at 144.4752 350.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12423,7 +13749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.085 340.36 0)
+			(at 143.51 346.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12434,7 +13760,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.085 340.36 0)
+			(at 143.51 346.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12461,7 +13787,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 349.25 0)
+		(at 130.175 355.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12472,7 +13798,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab32a996-7650-4847-86f3-36f9da7c8d97")
 		(property "Reference" "#PWR020"
-			(at 158.75 355.6 0)
+			(at 130.175 361.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12483,7 +13809,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 353.06 0)
+			(at 130.175 359.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12493,7 +13819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 349.25 0)
+			(at 130.175 355.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12504,7 +13830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 349.25 0)
+			(at 130.175 355.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12515,7 +13841,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 349.25 0)
+			(at 130.175 355.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12698,6 +14024,85 @@
 			(project "UPenn_OpAmp"
 				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 118.11 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5fb8001-3d00-4a6b-baa3-a5648e0e206f")
+		(property "Reference" "TP2"
+			(at 120.65 147.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 120.65 150.3679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 123.19 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fb0b32f-4c41-410d-9952-f41301a3a5ed")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -13223,7 +14628,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 165.1 340.36 0)
+		(at 136.525 346.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13233,7 +14638,7 @@
 		(dnp no)
 		(uuid "c1ab3836-27a6-42b0-9a40-2d3a6ae503f7")
 		(property "Reference" "C8"
-			(at 167.64 342.9 0)
+			(at 139.065 349.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13244,7 +14649,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 165.735 345.44 0)
+			(at 137.16 351.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13255,7 +14660,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 166.0652 344.17 0)
+			(at 137.4902 350.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13266,7 +14671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 340.36 0)
+			(at 136.525 346.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13277,7 +14682,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 340.36 0)
+			(at 136.525 346.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13297,6 +14702,85 @@
 			(project "UPenn_OpAmp"
 				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 132.08 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1ee5385-ceea-412b-b3ab-e973de4932f7")
+		(property "Reference" "TP7"
+			(at 134.62 170.6879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 134.62 173.2279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 137.16 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 132.08 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25eb2d08-f0b7-438e-8404-f30309d68e60")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -13488,6 +14972,162 @@
 			(project "UPenn_OpAmp"
 				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 147.32 154.94 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c76ee05f-705d-4164-b0bc-95ca5c9499cc")
+		(property "Reference" "#PWR059"
+			(at 143.51 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V_SW"
+			(at 151.13 154.9399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6789c55-9520-494a-8529-3c24b3185f20")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8227793-70e6-4ebc-9476-9c9f7bc76e7e")
+		(property "Reference" "#PWR065"
+			(at 132.08 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb5fd0e2-cc22-4d09-9420-898a837d9fa9")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -14145,7 +15785,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 349.25 0)
+		(at 136.525 355.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14156,7 +15796,7 @@
 		(fields_autoplaced yes)
 		(uuid "e08a317f-6f57-4696-8015-dd0ff55bad87")
 		(property "Reference" "#PWR019"
-			(at 165.1 355.6 0)
+			(at 136.525 361.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14167,7 +15807,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 353.06 0)
+			(at 136.525 359.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14177,7 +15817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 349.25 0)
+			(at 136.525 355.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14188,7 +15828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 349.25 0)
+			(at 136.525 355.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14199,7 +15839,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 349.25 0)
+			(at 136.525 355.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14216,6 +15856,85 @@
 			(project "UPenn_OpAmp"
 				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 118.11 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7c80353-c524-4fb9-be28-7d55092be378")
+		(property "Reference" "TP6"
+			(at 120.65 170.6879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 120.65 173.2279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 123.19 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "720aba47-9d8d-436c-8cda-018cca2bfdfa")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -14392,7 +16111,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 158.75 340.36 0)
+		(at 130.175 346.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14402,7 +16121,7 @@
 		(dnp no)
 		(uuid "ecb34c33-6616-4da7-98a4-b5dca49bc46c")
 		(property "Reference" "C9"
-			(at 154.94 336.55 0)
+			(at 126.365 342.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14413,7 +16132,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 159.385 342.9 0)
+			(at 130.81 349.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14424,7 +16143,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 159.7152 344.17 0)
+			(at 131.1402 350.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14435,7 +16154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 340.36 0)
+			(at 130.175 346.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14446,7 +16165,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 340.36 0)
+			(at 130.175 346.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
