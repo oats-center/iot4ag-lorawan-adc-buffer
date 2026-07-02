@@ -513,7 +513,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "pulsed_current_test_circuit.net",
-      "plot": "",
+      "plot": "fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
