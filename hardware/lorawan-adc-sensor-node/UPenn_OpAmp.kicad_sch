@@ -3637,9 +3637,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Digital Interrupt (PB14)\nSend uplink when pressed \n(Normally open button)"
+	(text "Digital Interrupt (PB14)\nSend uplink when pressed \n(Normally open button)\n*debounced at Dragino LSN50v2\nmotherboard"
 		(exclude_from_sim no)
-		(at 259.588 52.324 0)
+		(at 258.064 55.118 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3705,7 +3705,7 @@
 	)
 	(text "Voltage Follower - Port 3"
 		(exclude_from_sim no)
-		(at 371.094 231.648 0)
+		(at 409.956 241.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3725,7 +3725,7 @@
 		)
 		(uuid "50977b9d-fa8f-4613-ab6c-d8beef1c8cf5")
 	)
-	(text "*1-wire pull-up resistor\navailable on LSN50 board"
+	(text "*4.7k 1-wire pull-up resistor\nconnected to PB3 on LSN50 board"
 		(exclude_from_sim no)
 		(at 188.976 65.024 0)
 		(effects
@@ -3738,7 +3738,7 @@
 	)
 	(text "Voltage Follower - Port 2"
 		(exclude_from_sim no)
-		(at 367.284 151.638 0)
+		(at 400.304 155.194 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3814,7 +3814,7 @@
 	)
 	(text "Voltage Follower - Port 1"
 		(exclude_from_sim no)
-		(at 364.998 76.454 0)
+		(at 370.078 85.344 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3859,12 +3859,6 @@
 		(uuid "1aa9fd16-3613-43bf-b6b5-1c1286177693")
 	)
 	(junction
-		(at 367.665 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24be685c-f902-45e5-b6e7-8d71addec910")
-	)
-	(junction
 		(at 63.5 254)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3887,6 +3881,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a078b3d-0c02-4756-933f-e5772545257e")
+	)
+	(junction
+		(at 367.665 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f9f7cf4-c35a-4f64-9b86-628a0ed2a02f")
 	)
 	(junction
 		(at 90.805 254)
@@ -3989,6 +3989,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea29bd53-ae6a-4f80-aa8d-0e4074bd4876")
+	)
+	(junction
+		(at 375.92 216.535)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0251d54-6c43-468c-9e91-3692826581ac")
 	)
 	(junction
 		(at 387.35 194.945)
@@ -4532,16 +4538,6 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 216.535) (xy 375.92 219.075)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "398844e5-a1ba-4b7c-a8b0-0a032d85c87b")
-	)
-	(wire
-		(pts
 			(xy 67.31 157.48) (xy 81.28 157.48)
 		)
 		(stroke
@@ -4602,6 +4598,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 216.535) (xy 375.92 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "444fd8b2-8b03-4902-aee8-e38ab08e49bc")
+	)
+	(wire
+		(pts
 			(xy 86.995 324.485) (xy 86.995 335.28)
 		)
 		(stroke
@@ -4622,7 +4628,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.205 62.23) (xy 370.205 64.77)
+			(xy 370.84 62.23) (xy 370.84 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4732,6 +4738,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 134.62) (xy 368.3 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f81b8a-107a-4559-9a61-39721c05bf74")
+	)
+	(wire
+		(pts
 			(xy 136.525 337.82) (xy 143.51 337.82)
 		)
 		(stroke
@@ -4739,16 +4755,6 @@
 			(type default)
 		)
 		(uuid "533954b0-617e-467a-90dc-68d0c5b3fd71")
-	)
-	(wire
-		(pts
-			(xy 367.665 134.62) (xy 367.665 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53ce8e41-e9ce-4cd8-9e49-296326570215")
 	)
 	(wire
 		(pts
@@ -4789,6 +4795,16 @@
 			(type default)
 		)
 		(uuid "597039a5-cec8-4a85-bc16-9a5fab61f0a3")
+	)
+	(wire
+		(pts
+			(xy 368.3 134.62) (xy 367.665 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59e3b162-cff4-4375-ac59-423ea4414d11")
 	)
 	(wire
 		(pts
@@ -5412,6 +5428,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 215.9) (xy 375.92 216.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a791e0e4-2ef4-4ca9-85c9-21ca50bf6125")
+	)
+	(wire
+		(pts
 			(xy 426.085 118.745) (xy 421.005 118.745)
 		)
 		(stroke
@@ -5509,6 +5535,16 @@
 			(type default)
 		)
 		(uuid "b0dd2b9b-9328-4731-9d1c-5d9a001c6d1e")
+	)
+	(wire
+		(pts
+			(xy 370.84 62.23) (xy 370.205 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b21a50a2-d8b2-4663-aab8-5c776ed9d3a7")
 	)
 	(wire
 		(pts
@@ -8490,6 +8526,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 368.3 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20e8ac46-dd28-47ff-8337-8c09c70811e4")
+		(property "Reference" "#PWR013"
+			(at 368.3 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 365.76 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4084adfb-457b-44e6-bd2d-18cebcb4b8cd")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
 		(at 66.04 113.03 180)
 		(unit 1)
@@ -9292,7 +9407,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3bd95495-522b-41e1-944e-4a5d1fda089e")
 		(property "Reference" "#FLG02"
 			(at 360.045 141.605 0)
@@ -9306,7 +9420,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 362.585 140.97 0)
+			(at 348.742 141.732 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10642,85 +10756,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 367.665 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "560d50aa-d4b3-4aa6-9b67-ed07678c2231")
-		(property "Reference" "#PWR031"
-			(at 367.665 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 365.125 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 367.665 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 367.665 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 367.665 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7dca9a86-63d7-461a-b57b-42a0c451dc27")
-		)
-		(instances
-			(project "UPenn_OpAmp"
-				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 432.435 47.625 90)
 		(unit 1)
@@ -10794,85 +10829,6 @@
 			(project "UPenn_OpAmp"
 				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 375.92 219.075 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "585a8fa3-3c4f-4a13-9fe1-c73a8690c827")
-		(property "Reference" "#PWR046"
-			(at 375.92 225.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 374.015 220.345 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 375.92 219.075 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 219.075 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 375.92 219.075 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4303b3ef-4225-419d-ab44-95b330cc27bf")
-		)
-		(instances
-			(project "UPenn_OpAmp"
-				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -13299,7 +13255,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 370.205 64.77 0)
+		(at 370.84 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13310,7 +13266,7 @@
 		(fields_autoplaced yes)
 		(uuid "920695cb-62fd-4373-9680-2d4812db35ad")
 		(property "Reference" "#PWR04"
-			(at 370.205 71.12 0)
+			(at 370.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13321,7 +13277,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 367.665 66.04 0)
+			(at 368.3 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13332,7 +13288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 370.205 64.77 0)
+			(at 370.84 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13343,7 +13299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.205 64.77 0)
+			(at 370.84 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13354,7 +13310,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 370.205 64.77 0)
+			(at 370.84 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14965,6 +14921,85 @@
 			(project "UPenn_OpAmp"
 				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 375.92 220.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b250efd4-f59a-4de3-be5a-41fcbbbb7a52")
+		(property "Reference" "#PWR031"
+			(at 375.92 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 373.38 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 375.92 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f940835f-6ae5-40d6-a2ef-0c0bc6388612")
+		)
+		(instances
+			(project "UPenn_OpAmp"
+				(path "/f48a13d6-e993-4972-a2c5-151eb98ab967"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
